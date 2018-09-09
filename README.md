@@ -1,4 +1,3 @@
 Random triangle art in pico-8
 
-Uses a super simple super slow recursive algorithm to draw a bunch of colored triangles. This is very fun to look at! It's even more fun than watching triangles instaneously appear. Maybe seeing each triangle slowly assemble builds some emotional attachment in your mind as you stare at them? Try it out!
-
+The other night while I was half asleep in bed I came up with a dumb super slow triforce algorithm to recursively color triangles. It's pretty neat to look at! [Check it out](https://mbrahe.github.io/random-triangles-demo/)
