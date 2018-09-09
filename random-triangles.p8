@@ -1,17 +1,6 @@
 pico-8 cartridge // http://www.pico-8.com
 version 8
 __lua__
-
-function slope(p1, p2, inverse)
-	-- Input: two points, bool to indicate whether to use normal or inverse slope
-	-- Output: slope of points as a float
-	if (not inverse) then
-		return (p1.y - p2.y) / (p1.x - p2.x)
-	else
-		return (p1.x - p2.x) / (p1.y - p2.y)
-	end
-end
-
 function midpoint(p1,p2)
 	-- input: two points
 	-- output: point at the center of the line segment connecting both points
